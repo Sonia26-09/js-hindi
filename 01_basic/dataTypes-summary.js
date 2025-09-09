@@ -25,5 +25,28 @@ const bigNumber =23478777219912779989n
  }
 
  const myfunction=function(){
-     console.log("Hello world")
+    //  console.log("Hello world")
  }
+//************************
+
+//two types of memory stack(Primitive),Heap(Non-Primitive)
+
+let myYoutubename="hiteshchoudary"
+
+let anothername=myYoutubename
+anothername="chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne={
+  email:"abc@gmail.com",
+  upi:"user@ybl"
+}
+
+let userTwo= userOne
+
+userTwo.email="xyz@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
