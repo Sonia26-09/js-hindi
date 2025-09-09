@@ -23,3 +23,4 @@ console.log(typeof "Sonia");
 console.log(typeof age);
 console.log(typeof null);//null is object interview question
 console.log(typeof undefined); //undefined aapne aap m ek type hai
+
